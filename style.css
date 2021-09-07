@@ -1,0 +1,41 @@
+body{
+  margin:0;
+}
+a {
+  color:;
+  text-decoration: none;
+}
+h1 {
+  border-bottom:1px solid black;
+  font-size:50px;
+  text-align: center;
+  padding:20px;
+  margin: 0px;
+}
+ol {
+  border-right: solid 1px black;
+  width:100px;
+  margin:0px;
+  padding:20px;
+}
+  #qwer ol{
+    padding-left: 33px;
+  }
+  #qwer {
+    padding-left: 25px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  @media(max-width:800px) {
+    #qwer{
+      display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1{
+      border-bottom:none;
+    }
+  }
